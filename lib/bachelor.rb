@@ -23,6 +23,7 @@ def get_contestant_name(data, occupation)
     players.each do |player_data|
       if occupation == player_data["occupation"]
         return player_data["name"]
+      end
   end
 end
 
