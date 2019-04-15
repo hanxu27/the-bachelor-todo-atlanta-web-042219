@@ -20,7 +20,9 @@ def get_contestant_name(data, occupation)
   # code here
   data.each do |key, players|
     binding.pry
-    p
+    players.each do |player_data|
+      if occupation == player_data["occupation"]
+        return player_data["name"]
   end
 end
 
