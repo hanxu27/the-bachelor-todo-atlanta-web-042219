@@ -9,7 +9,8 @@ def get_first_name_of_season_winner(data, season)
     if key == season
       players.each do |player_data|
             binding.pry
-      output =  players[name]
+      if "winner" =  players["status"]
+        output = 
     end
     end
   end
