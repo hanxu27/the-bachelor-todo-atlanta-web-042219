@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
   data.each do |key, players|
     binding.pry
     if key == season
-      output = 
+      output =  players[name]
     end
   end
 end
