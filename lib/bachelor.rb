@@ -9,7 +9,7 @@ def get_first_name_of_season_winner(data, season)
     if key == season
       players.each do |player_data|
             #binding.pry
-        if "winner" =  players["status"]
+        if "winner" ==  players["status"]
           output = players["name"].slice(0..(str.index(' ')))
         end
       end
