@@ -11,10 +11,12 @@ def get_first_name_of_season_winner(data, season)
 
         if "winner" ==  players["status"]
           output = players["name"].slice(0..(str.index(' ')))
+          binding.pry
         end
       end
     end
   end
+  
   binding.pry
   output
 end
