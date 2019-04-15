@@ -13,7 +13,8 @@ def get_first_name_of_season_winner(data, season)
           output = players["name"].slice(0..(str.index(' ')))
         end
       end
-  end
+    end
+    output
 end
 
 def get_contestant_name(data, occupation)
