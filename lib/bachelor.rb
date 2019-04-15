@@ -20,6 +20,7 @@ def get_contestant_name(data, occupation)
   # code here
   data.each do |key, players|
     binding.pry
+    p
   end
 end
 
